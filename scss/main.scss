@@ -1,3 +1,5 @@
+@import "./newsletter";
+
 html,
 body,
 html body * {
@@ -8,7 +10,33 @@ body {
   font-family: "Roboto";
   margin: 0;
   padding: 0;
-  border-radius: 5px;
 }
 
-@import "./newsletter";
+.menu {
+  background-color: #000;
+  padding: 0;
+  width: 100%;
+
+  &__list {
+    list-style-type: none;
+
+    &-item {
+      color: #fff;
+      display: inline-block;
+      margin: 16px;
+
+      &-link {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 15px;
+        text-decoration: none;
+
+        &:hover {
+          background-color: #313131;
+          color: #d8a519;
+        }
+      }
+    }
+  }
+}
