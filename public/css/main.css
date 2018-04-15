@@ -71,3 +71,8 @@ html body * {
           background-color: #313131;
           border-radius: 5px;
           color: #d8a519; }
+  .main {
+  margin: 0 auto;
+  text-align: center; }
+  .main__image {
+    width: 80%; }

@@ -44,3 +44,12 @@ body {
     }
   }
 }
+
+.main {
+  margin: 0 auto;
+  text-align: center;
+
+  &__image {
+    width: 80%;
+  }
+}
