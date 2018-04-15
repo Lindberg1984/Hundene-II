@@ -50,20 +50,24 @@ html body * {
   padding: 0; }
   .menu {
   background-color: #000;
+  height: 66px;
   padding: 0;
+  position: absolute;
   width: 100%; }
   .menu__list {
     list-style-type: none; }
   .menu__list-item {
       color: #fff;
       display: inline-block;
-      margin: 16px; }
+      margin: 8px; }
   .menu__list-item-link {
         color: #fff;
         font-size: 15px;
         font-weight: 700;
         padding: 15px;
-        text-decoration: none; }
+        text-decoration: none;
+        text-shadow: 2px 2px 2px #fff; }
   .menu__list-item-link:hover {
           background-color: #313131;
+          border-radius: 5px;
           color: #d8a519; }
