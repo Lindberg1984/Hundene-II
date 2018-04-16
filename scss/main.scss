@@ -33,12 +33,13 @@ body {
         font-weight: 700;
         padding: 15px;
         text-decoration: none;
-        text-shadow: 2px 2px 2px #fff;
+        text-shadow: 3px 3px 3px #ccc;
 
         &:hover {
           background-color: #313131;
           border-radius: 5px;
           color: #d8a519;
+          text-shadow: none;
         }
       }
     }
@@ -50,6 +51,6 @@ body {
   text-align: center;
 
   &__image {
-    width: 80%;
+    width: 90%;
   }
 }
