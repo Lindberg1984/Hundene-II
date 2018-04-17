@@ -7,13 +7,14 @@ html body * {
 }
 
 body {
+  color: #fff;
   font-family: "Roboto";
   margin: 0;
   padding: 0;
 }
 
 .menu {
-  background-color: #000;
+  background-color: #3f5dcc;
   height: 66px;
   padding: 0;
   position: absolute;
@@ -23,17 +24,16 @@ body {
     list-style-type: none;
 
     &-item {
-      color: #fff;
       display: inline-block;
       margin: 8px;
 
       &-link {
         color: #fff;
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 700;
         padding: 15px;
         text-decoration: none;
-        text-shadow: 3px 3px 3px #ccc;
+        text-shadow: 3px 3px 3px #000;
 
         &:hover {
           background-color: #313131;
@@ -46,11 +46,36 @@ body {
   }
 }
 
-.main {
+.mid {
   margin: 0 auto;
   text-align: center;
 
   &__image {
-    width: 90%;
+    height: 550px;
+    width: 100%;
+  }
+}
+
+.main {
+  background-color: #3f5dcc;
+  bottom: 40px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+
+  &__content {
+    text-align: center;
+
+    &-intro {
+      font-size: 18px;
+      font-weight: 700;
+      text-shadow: 3px 3px 3px #000;
+    }
+
+    &-article {
+      font-weight: 700;
+      padding: 6px;
+      text-shadow: 3px 3px 3px #000;
+    }
   }
 }

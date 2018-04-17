@@ -45,11 +45,12 @@ html body * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
   body {
+  color: #fff;
   font-family: "Roboto";
   margin: 0;
   padding: 0; }
   .menu {
-  background-color: #000;
+  background-color: #3f5dcc;
   height: 66px;
   padding: 0;
   position: absolute;
@@ -57,23 +58,39 @@ html body * {
   .menu__list {
     list-style-type: none; }
   .menu__list-item {
-      color: #fff;
       display: inline-block;
       margin: 8px; }
   .menu__list-item-link {
         color: #fff;
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 700;
         padding: 15px;
         text-decoration: none;
-        text-shadow: 3px 3px 3px #ccc; }
+        text-shadow: 3px 3px 3px #000; }
   .menu__list-item-link:hover {
           background-color: #313131;
           border-radius: 5px;
           color: #d8a519;
           text-shadow: none; }
-  .main {
+  .mid {
   margin: 0 auto;
   text-align: center; }
-  .main__image {
-    width: 90%; }
+  .mid__image {
+    height: 550px;
+    width: 100%; }
+  .main {
+  background-color: #3f5dcc;
+  bottom: 40px;
+  margin: 0 auto;
+  padding: 0;
+  position: relative; }
+  .main__content {
+    text-align: center; }
+  .main__content-intro {
+      font-size: 18px;
+      font-weight: 700;
+      text-shadow: 3px 3px 3px #000; }
+  .main__content-article {
+      font-weight: 700;
+      padding: 6px;
+      text-shadow: 3px 3px 3px #000; }
