@@ -15,6 +15,7 @@ body {
 
 .menu {
   background-color: #3f5dcc;
+  border: 1px solid #000;
   height: 66px;
   padding: 0;
   position: absolute;
@@ -59,6 +60,7 @@ body {
 .introduction {
   background-color: #3f5dcc;
   bottom: 40px;
+  border: 1px solid #000;
   margin: 0 auto;
   padding: 0;
   position: relative;
@@ -78,4 +80,13 @@ body {
       text-shadow: 3px 3px 3px #000;
     }
   }
+}
+
+.main {
+  background-color: #32373f;
+  bottom: 40px;
+  height: 450px;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
 }
