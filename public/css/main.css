@@ -78,19 +78,19 @@ html body * {
   .mid__image {
     height: 550px;
     width: 100%; }
-  .main {
+  .introduction {
   background-color: #3f5dcc;
   bottom: 40px;
   margin: 0 auto;
   padding: 0;
   position: relative; }
-  .main__content {
+  .introduction__content {
     text-align: center; }
-  .main__content-intro {
+  .introduction__content-intro {
       font-size: 18px;
       font-weight: 700;
       text-shadow: 3px 3px 3px #000; }
-  .main__content-article {
+  .introduction__content-article {
       font-weight: 700;
       padding: 6px;
       text-shadow: 3px 3px 3px #000; }
